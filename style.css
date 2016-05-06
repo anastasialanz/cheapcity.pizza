@@ -37,6 +37,7 @@ img {
   background-color: #FFF;
   -webkit-transition: color .2s, background-color .2s;
   transition: color .2s, background-color .2s;
+  margin-bottom: 1rem;
 }
 .add-to-calendar:hover {
   background-color: #d73e57;
