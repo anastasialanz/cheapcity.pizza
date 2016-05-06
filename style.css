@@ -17,11 +17,18 @@ p {
   line-height: 1.6;
   margin-bottom: 2rem;
 }
-
+a {
+  font-weight: 700;
+  color: #d73e57;
+  transition: color .2s;
+}
+a:hover {
+  color: #FFF;
+}
 img {
   width: 100%;
 }
-a {
+.add-to-calendar {
   display: inline-block;
   color: #d73e57;
   text-decoration: none;
@@ -31,7 +38,7 @@ a {
   -webkit-transition: color .2s, background-color .2s;
   transition: color .2s, background-color .2s;
 }
-a:hover {
+.add-to-calendar:hover {
   background-color: #d73e57;
   color: #FFF;
 }
