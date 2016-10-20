@@ -57,3 +57,6 @@ img {
 .vjs-fullscreen {
   padding-top: 0px !important;
 }
+video {
+  object-fit: inherit;
+}
